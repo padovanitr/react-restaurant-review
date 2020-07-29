@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#state {
+  width: 200px;
+  float: left;
+}
+
+#map {
+  margin-left: 200px;
+  height: 450px;
+  /*height: 100%;*/
+  top: 20px;
+  /*border*/
+}
+
+#street-view {
+  margin-left: 200px;
+  height: 450px;
+  /*height: 100%;*/
+  top: 20px;
+  /*border*/
+}
