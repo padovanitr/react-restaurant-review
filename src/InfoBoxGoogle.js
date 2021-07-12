@@ -40,8 +40,8 @@ class InfoBoxGoogle extends Component {
                     <div className="list-group-item" key={this.props.restaurantGoogleInfo.id}>
                         <h3 className="list-group-item-heading">Name: {this.props.restaurantGoogleInfo.name}</h3>
                         <h4 className="list-group-item-text">Adress: {this.props.restaurantGoogleInfo.vicinity}</h4>
-                        <h4 className="list-group-item-text">Long: {this.props.restaurantGoogleInfo.geometry.viewport.Ua.j}</h4>
-                        <h4 className="list-group-item-text">Long: {this.props.restaurantGoogleInfo.geometry.viewport.Ya.j}</h4>
+                        <h4 className="list-group-item-text">Lat: {this.props.restaurantGoogleInfo.geometry.viewport.La.g}</h4>
+                        <h4 className="list-group-item-text">Long: {this.props.restaurantGoogleInfo.geometry.viewport.Ua.g}</h4>
                        
                         
 

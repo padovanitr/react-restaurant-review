@@ -213,6 +213,7 @@ class App extends Component {
     // display info from google places API
     displayPlacesGoogleInfo = (restaurantGoogleInfo) => {
         //console.log(restaurantGoogleInfo);
+        console.log('RESTAURANTINFO', restaurantGoogleInfo)
         this.setState({
             restaurantGoogleInfo,
             showBoxGoogle: true,
